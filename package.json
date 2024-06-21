@@ -1,0 +1,16 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot with scheduling using node-cron and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node recbot.js"
+  },
+  "author": "dave",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^1.0.0",
+    "node-cron": "^3.0.0"
+  }
+} 
