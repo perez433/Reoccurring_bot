@@ -45,7 +45,7 @@ async function sendMessage(chatId, message) {
 
 function sendRecurringMessage() {
   const messageContent = readMessage();
-  const message = `${botToken}\n\n${messageContent}`;
+  const message = `${messageContent}`;
   sendMessage(chatId, message);
 }
 
